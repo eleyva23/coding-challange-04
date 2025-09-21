@@ -6,7 +6,7 @@ const products = [
    {sku: "E-130", name: "towels", category: "toiletries", price: 10.75, inventory: 8},
 
 ];
-// Step 2 Category Discounts
+// Step 3 Category Discounts
 for (let p of products) {
   let discount = 0;
   switch (p.category) {
@@ -18,4 +18,4 @@ for (let p of products) {
   }
   p.promoPrice = (p.price * (1 - discount)).toFixed(2);
 }
-// Step 3 Creating a Variable
+// Step 4 Creating a Variable
