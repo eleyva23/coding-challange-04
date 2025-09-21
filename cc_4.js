@@ -3,7 +3,7 @@ const products = [
    {sku:"B-115", name: "lotion", category: "household", price: 12.32, inventory: 9},
    {sku: "C-120", name: "iphone charger", category: "electronics", price: 25.75, inventory: 12},
    {sku: "D-125", name: "blush", category:"makeup", price: 13.75, inventory: 5},
-   {sku: "E-130", name: "towels", category: "household", price: 10.75, inventory: 8},
+   {sku: "E-130", name: "towels", category: "toiletries", price: 10.75, inventory: 8},
 
 ];
 // Step 3 Category Discounts
