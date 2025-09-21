@@ -19,3 +19,15 @@ for (let p of products) {
   p.promoPrice = (p.price * (1 - discount)).toFixed(2);
 }
 // Step 4 Creating a Variable
+let total = 100; 
+let customerType = "student"
+if (customerType== "student"){
+   total =total - (total* 0.05);
+   else if (customerType === "senior") {
+   total = total - (total *0.07);
+   } else 
+   }
+   console.log(`final total after discount: $${total.toFixed(2)}`);
+   
+
+
