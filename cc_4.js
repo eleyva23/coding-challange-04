@@ -21,13 +21,14 @@ for (let p of products) {
 // Step 4 Creating a Variable
 let total = 100; 
 let customerType = "student"
-if (customerType== "student"){
-   total =total - (total* 0.05);
-   else if (customerType === "senior") {
+if (customerType== "student") { extraDiscount = 0.05; }
+   else if (customerType === "senior") { extraDiscount = 0.07; }
+   else { extraDiscount = 0; }
    total = total - (total *0.07);
-   } else 
-   }
    console.log(`final total after discount: $${total.toFixed(2)}`);
    
+   // Step 5 loops 
+
+
 
 
