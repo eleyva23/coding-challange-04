@@ -43,8 +43,20 @@ let extraDiscount;
    else {extraDiscount = 0;}
 
 let finalTotal = subtotal * (1- extraDiscount); 
-console.log(`Customer ${i}: $${finalTotal.toFixed(2)}`);
+console.log(`Customer ${i}: $${finalTotal.toFixed(2)}`);{
+
+}
 console.log("reamining inventory:", products);
+
+// Step 6 
+
+let firstProduct = products [0]
+for (let key in firstProduct);
+   console. log(`${key}: ${firstProduct[key]}`);
+
+   // Step 7 
+
+
 
 
 
