@@ -43,9 +43,9 @@ let extraDiscount;
    else {extraDiscount = 0;}
 
 let finalTotal = subtotal * (1- extraDiscount); 
-console.log(`Customer ${i}: $${finalTotal.toFixed(2)}`);{
+console.log(`Customer ${i}: $${finalTotal.toFixed(2)}`);
 
-}
+
 console.log("reamining inventory:", products);
 
 // Step 6 use for in.. log 
@@ -59,7 +59,7 @@ for (let key in firstProduct);
    let hairbrush = products [1]
   for (let [key, value] of Object.entries(hairbrush));
   { console.log(`${key}; ${value}`)};
-  
+
 
 
 
