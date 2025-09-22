@@ -27,7 +27,31 @@ if (customerType== "student") { extraDiscount = 0.05; }
    total = total - (total *0.07);
    console.log(`final total after discount: $${total.toFixed(2)}`);
    
-   // Step 5 loops 
+ // Step 5 loops 
+  for (let i = 1; i <= 3; i++) {
+let subtotal = 0; 
+
+   for (let p of products) {
+      if (p.inventory > 0) {
+         subtotal += parseFloat(p.promoPrice);
+         p.inventory--;} }
+  }
+let extraDiscount; 
+
+   if (customerType === "student") {extraDiscount = 0.05;}
+   else if (customerType === "senior") {extraDiscount = 0.07;}
+   else {extraDiscount = 0;}
+
+let finalTotal = subtotal * (1- extraDiscount); 
+console.log(`Customer ${i}: $${finalTotal.toFixed(2)}`);
+console.log("reamining inventory:", products);
+
+
+
+
+
+
+   
    
 
 
