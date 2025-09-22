@@ -28,6 +28,7 @@ if (customerType== "student") { extraDiscount = 0.05; }
    console.log(`final total after discount: $${total.toFixed(2)}`);
    
    // Step 5 loops 
+   
 
 
 
