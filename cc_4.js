@@ -56,8 +56,8 @@ for (let key in firstProduct);
 
    // Step 7 use object.entries
 
-   let hairbrush = products [1]
-  for (let [key, value] of Object.entries(hairbrush));
+   let lotion  = products [1]
+  for (let [key, value] of Object.entries(lotion));
   { console.log(`${key}; ${value}`)};
 
 
