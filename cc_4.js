@@ -48,13 +48,18 @@ console.log(`Customer ${i}: $${finalTotal.toFixed(2)}`);{
 }
 console.log("reamining inventory:", products);
 
-// Step 6 
+// Step 6 use for in.. log 
 
 let firstProduct = products [0]
 for (let key in firstProduct);
    console. log(`${key}: ${firstProduct[key]}`);
 
-   // Step 7 
+   // Step 7 use object.entries
+
+   let hairbrush = products [1]
+  for (let [key, value] of Object.entries(hairbrush));
+  { console.log(`${key}; ${value}`)};
+  
 
 
 
